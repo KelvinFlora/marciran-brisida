@@ -2,12 +2,12 @@
     <nav class="navbar bg-dark">
   <div class="container">
     <a class="navbar-brand text-light" href="#">
-      <img src="./icons/IconPsycho.png" alt="Logo" width="35" height="29" class="d-inline-block align-text-top">
+      <img src="./icons/IconPsychology.png" alt="Logo" width="35" height="29" class="d-inline-block align-text-top">
       Marciran Brisida
     </a>
-    <ul class="nav justify-content-center menu-text">
+    <ul class="nav justify-content-center">
   <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Início</a>
+    <a class="nav-link active" href="#">Início</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">Sobre</a>
