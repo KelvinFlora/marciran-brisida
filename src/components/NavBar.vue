@@ -1,24 +1,37 @@
 <template>
-    <nav class="navbar bg-dark">
+    <nav class="navbar navbar-expand-lg bg-dark">
   <div class="container">
     <a class="navbar-brand text-light" href="#">
       <img src="./icons/IconPsychology.png" alt="Logo" width="35" height="29" class="d-inline-block align-text-top">
       Marciran Brisida
     </a>
+    <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="nav justify-content-center">
   <li class="nav-item">
-    <a class="nav-link active" href="#">Início</a>
+    <router-link class="nav-link" to="/">Início</router-link>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Sobre</a>
+    <router-link class="nav-link" to="/sobre">Sobre</router-link>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Serviços</a>
+    <router-link class="nav-link" to="/serviços">Serviços</router-link>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Contato</a>
+    <router-link class="nav-link" to="/contato">Contato</router-link>
   </li>
 </ul>
+  </div>
   </div>
 </nav>
 </template>
