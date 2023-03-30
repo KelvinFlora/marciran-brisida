@@ -8,7 +8,7 @@
           <!-- Facebook -->
           <a
             class="btn text-light btn-floating m-1 facebook-button"
-            href="https://www.facebook.com/helcio.baronijunior"
+            href="https://www.facebook.com/marciran.brisida"
             target="_blank"
             role="button"
           >
@@ -18,7 +18,7 @@
           <!-- Instagram -->
           <a
             class="btn text-light btn-floating m-1 instagram-button"
-            href="https://www.instagram.com/helciobaronipianista/"
+            href="https://www.instagram.com/psi.marciranbrisida"
             target="_blank"
             role="button"
             ><i class="bi bi-instagram"></i
@@ -27,7 +27,7 @@
           <!-- WhatsApp -->
           <a
             class="btn text-light btn-floating m-1 whatsapp-button"
-            href="https://wa.me/+5535988892908"
+            href="https://wa.me/+5535988434758"
             target="_blank"
             role="button"
             ><i class="bi bi-whatsapp"></i
