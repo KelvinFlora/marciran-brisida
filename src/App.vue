@@ -2,10 +2,10 @@
     <nav>
     <NavBar />
     </nav>
+    <RouterView />
     <div>
     <FooterSite />
     </div>
-    <RouterView />
 </template>
 
 <script>
