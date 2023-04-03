@@ -1,6 +1,6 @@
 <template>
   <div class="container text-center">
-      <img class="pt-4 photo-profile" alt="Foto de perfil do Marciran" src="../../public/images/marciran-photo-prof.png" />
+      <img class="pt-4 photo-profile" alt="Foto de perfil do Marciran" src="../../public/images/marciran-prof2.png" />
     </div>
   <div class="container text-center pt-3">
       <h2>Sobre mim</h2>
