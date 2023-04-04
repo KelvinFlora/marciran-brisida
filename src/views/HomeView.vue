@@ -78,8 +78,8 @@
           <div class="card-body">
             <h5 class="card-title">Atendimento Psicológico</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              Atendimentos Psicológicos voltados para todos os públicos (Infantil, Adolescente,
+              Adulto e Idoso).
             </p>
           </div>
         </div>
@@ -92,7 +92,8 @@
           <div class="card-body">
             <h5 class="card-title">Orientação de Pais</h5>
             <p class="card-text">
-              This card has supporting text below as a natural lead-in to additional content.
+              Orientações aos pais relacionadas a comportamentos e como lidar com situação adversas
+              nos diversos ambientes onde seus filhos estão inseridos.
             </p>
           </div>
         </div>
@@ -101,9 +102,9 @@
           <div class="card-body">
             <h5 class="card-title">Terapia de Casal</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This card has even longer content than the first to show that equal height
-              action.
+              A terapia de casal possibilitará a identificação e discussão de questões que estão
+              afetando o relacionamento, como problemas de comunicação, conflitos, falta de
+              intimidade, infidelidade ou outras dificuldades.
             </p>
           </div>
         </div>
