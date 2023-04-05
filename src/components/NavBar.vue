@@ -53,11 +53,10 @@ export default {
   color: white;
 }
 .navbar-nav > .active > a {
-  color: var(--bs-primary);
-  /* color: rgb(253, 210, 16); */
+  color: rgb(253, 210, 16);
 }
 .nav-item > a:hover {
-  color: var(--bs-primary);
+  color: rgb(253, 210, 16);
 }
 
 .navbar .navbar-toggler-icon {
