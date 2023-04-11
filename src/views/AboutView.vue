@@ -41,6 +41,9 @@
 .about-photo-p2 {
   width: 30%;
 }
+.about-text-p2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 @media screen and (max-width: 500px) {
   .about-photo-p2 {
     margin-top: 0px;
