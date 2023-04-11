@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid pt-4 pb-4 text-center">
-    <h1 class="pb-3">Serviços</h1>
+    <h1 class="pb-3 services-title-p3">Serviços</h1>
     <div class="card-group">
       <div class="card align-items-center">
         <img src="../../public/images/psychotherapy.jpg" class="card-img-top w-50" alt="..." />
@@ -40,3 +40,15 @@
     </div>
   </div>
 </template>
+<style services-page>
+.services-title-p3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.card-title {
+  margin-top: 30px;
+}
+.card-text {
+  margin-top: 20px;
+}
+</style>

@@ -1,18 +1,18 @@
 <template>
-  <div class="container pt-4">
+  <div class="container pt-4 contact-info-p4">
     <h2>Informações de Contato</h2>
-    <p class="pt-3">Nome: Marciran Eleutério Brisida</p>
+    <p class="pt-3">Marciran Eleutério Brisida</p>
     <p>
-      Telefone: (35) 98843-4758
+      (35) 98843-4758
       <a href="https://wa.me/+5535988434758" target="_blank" class="a-wpp"
         ><i class="bi bi-whatsapp ps-2"></i
       ></a>
     </p>
     <p>
-      Endereço: Edifício Manhattan - Rua Francisco Garcia de Miranda Junior, Nº 130, Sala 203,
-      Centro, Três Pontas - MG
+      Edifício Manhattan - Rua Francisco Garcia de Miranda Junior, Nº 130, Sala 203, Centro, Três
+      Pontas - MG
     </p>
-    <p>Email: marciranbrisidapsi@gmail.com</p>
+    <p>marciranbrisidapsi@gmail.com</p>
   </div>
   <div class="container py-0 mt-4 contact-overlay">
     <div class="row">
@@ -80,21 +80,23 @@
               <p v-if="formSent" class="text-success">
                 Recebemos a sua mensagem. Responderemos em breve! 😉
               </p>
-              <button
-                type="submit"
-                class="btn btn-primary submit-button mt-2 btn-lg w-50"
-                :disabled="sendingForm"
-              >
-                <span
-                  v-if="sendingForm"
-                  class="spinner-border spinner-border-sm me-2"
-                  role="status"
-                  aria-hidden="true"
-                ></span>
+              <div class="sub-button-p4">
+                <button
+                  type="submit"
+                  class="btn btn-primary submit-button mt-2 btn-lg w-50"
+                  :disabled="sendingForm"
+                >
+                  <span
+                    v-if="sendingForm"
+                    class="spinner-border spinner-border-sm me-2"
+                    role="status"
+                    aria-hidden="true"
+                  ></span>
 
-                <span v-if="sendingForm">Enviando...</span>
-                <span v-if="!sendingForm">Enviar</span>
-              </button>
+                  <span v-if="sendingForm">Enviando...</span>
+                  <span v-if="!sendingForm">Enviar</span>
+                </button>
+              </div>
             </div>
           </div>
         </form>
@@ -108,10 +110,10 @@
             </button></a
           >
         </div>
-        <div class="pt-2">
+        <div class="pt-2 maps-card-p4">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14862.038041234116!2d-45.51967893022461!3d-21.36983379999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ca83ea1f90ceb5%3A0x25acdb02d6964a9f!2sR.%20Francisco%20Garc%C3%ADa%20Miranda%2C%20130%20-%20Botafogo%2C%20Tr%C3%AAs%20Pontas%20-%20MG%2C%2037190-000!5e0!3m2!1spt-BR!2sbr!4v1680636619303!5m2!1spt-BR!2sbr"
-            width="90%"
+            width="100%"
             height="350"
             style="border: 0; border-radius: 1rem"
             allowfullscreen=""
@@ -123,6 +125,24 @@
     </div>
   </div>
 </template>
+<style>
+.maps-card-p4 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+@media screen and (max-width: 500px) {
+  .sub-button-p4 {
+    text-align: center;
+  }
+  .maps-card-p4 {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .contact-info-p4 {
+    text-align: center;
+  }
+}
+</style>
 <script>
 export default {
   data() {
