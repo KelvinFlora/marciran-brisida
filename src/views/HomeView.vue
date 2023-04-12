@@ -269,22 +269,30 @@
 </template>
 <style>
 .psycho-title {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding-top: 200px;
+  margin-bottom: 10px;
+  animation: fadeInDown;
+  animation-duration: 2s;
 }
 .psycho-text {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: larger;
   margin-bottom: 250px;
+  animation: fadeIn;
+  animation-duration: 5s;
 }
 .about-title {
   margin-top: 50px;
   margin-bottom: 50px;
+  animation: fadeInDown;
+  animation-duration: 2s;
 }
 .about-photo {
   align-items: center;
   width: 30%;
-  margin-top: 50px;
+  margin-top: 100px;
+  animation: backInLeft;
+  animation-duration: 1s;
 }
 .about-text {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -296,8 +304,8 @@
   margin-bottom: 50px;
 }
 .card {
-  outline: 0 !important;
-  border: 0 !important;
+  border: 0;
+  border-width: 0 !important;
 }
 .card-group {
   margin-bottom: 150px;
@@ -345,7 +353,7 @@
 
 @media screen and (max-width: 500px) {
   .psycho-title {
-    margin-top: 10px;
+    padding-top: 5px;
     margin-bottom: 10px;
   }
   .psycho-text {
@@ -358,7 +366,7 @@
   }
   .about-photo {
     width: 40%;
-    margin-top: 100px;
+    margin-top: 75px;
   }
   .about-title {
     margin-top: 0px;
@@ -367,11 +375,21 @@
   .about-text {
     margin-top: 10px;
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 75px;
   }
   .services-title {
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+  .card {
+    border-top: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+    border-width: 3px !important;
+    border-color: rgba(0, 0, 0, 0.336) !important;
+    border-radius: 0rem !important;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .card-group {
     margin-bottom: 20px;
