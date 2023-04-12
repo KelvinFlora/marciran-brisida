@@ -1,21 +1,27 @@
 <template>
-    <nav>
+  <nav>
     <NavBar />
-    </nav>
-    <RouterView />
-    <div>
+  </nav>
+  <RouterView />
+  <div>
     <FooterSite />
-    </div>
+  </div>
 </template>
 
 <script>
-    import NavBar from './components/NavBar.vue'
-    import FooterSite from './components/FooterSite.vue'
-    import { RouterView } from "vue-router";
+import { RouterView } from "vue-router";
+import FooterSite from "./components/FooterSite.vue";
+import NavBar from "./components/NavBar.vue";
 
-    export default {
-        name: 'App',
-        components: {
-            NavBar, FooterSite, RouterView}
-    }
+export default {
+  name: "App",
+  components: {
+    NavBar,
+    FooterSite,
+    RouterView
+  }
+};
 </script>
+<style lang="scss">
+@import "./assets/style.scss";
+</style>
