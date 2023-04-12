@@ -2,14 +2,16 @@
   <nav class="navbar navbar-expand-lg bg-dark">
     <div class="container">
       <a class="navbar-brand text-light" href="#">
-        <img
-          src="./icons/IconPsychology.png"
-          alt="Logo"
-          width="35"
-          height="29"
-          class="d-inline-block align-text-top"
-        />
-        Marciran Brisida
+        <router-link class="nav-link" to="/"
+          ><img
+            src="./icons/IconPsychology.png"
+            alt="Logo"
+            width="35"
+            height="29"
+            class="d-inline-block align-text-top"
+          />
+          Marciran Brisida
+        </router-link>
       </a>
       <button
         class="navbar-toggler"
@@ -49,17 +51,22 @@ export default {
 </script>
 
 <style>
+/*
 .nav-link {
-  color: white;
+  color: white !important;
+}
+.nav-link:focus {
+  color: rgb(253, 210, 16) !important;
 }
 .navbar-nav > .active > a {
-  color: rgb(253, 210, 16);
+  color: rgb(253, 210, 16) !important;
 }
 .nav-item > a:hover {
-  color: rgb(253, 210, 16);
+  color: rgb(253, 210, 16) !important;
 }
 
 .navbar .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
+*/
 </style>
