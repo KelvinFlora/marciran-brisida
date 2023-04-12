@@ -34,8 +34,12 @@
         ></a>
 
         <!-- Email (precisa colocar link) -->
-        <a class="btn text-light btn-floating m-1" href="#!" target="_blank" role="button"
-          ><i class="bi bi-envelope email-button"></i
+        <a
+          class="btn text-light btn-floating m-1"
+          href="marciranbrisidapsi@gmail.com"
+          target="_blank"
+          role="button"
+          ><i class="bi bi-envelope-fill email-button"></i
         ></a>
       </section>
       <!-- Section: Social media -->

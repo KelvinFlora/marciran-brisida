@@ -49,17 +49,27 @@
     <div class="container-fluid text-center pt-4 pb-4">
       <div class="row justify-content-center">
         <h4 class="col-8 align-self-center about-text">
-          Meu nome é <strong>Marciran Eleuterio Brisida</strong>, Sou
-          <strong>Psicólogo Clínico</strong>. Atendo crianças, adolescentes, adultos e idosos.
-          <br />
-          Formado em <strong>Psicologia</strong> pela Universidade José do Rosário Vellano -
-          UNIFENAS.
-          <br />
-          Especialista em <strong>Terapia Cognitivo-Comportamental</strong> pela Pontifícia
-          Universidade Católica do Paraná - PUCPR.
-          <br />
-          Psicólogo credenciado junto ao Conselho Federal de Psicologia - CFP para
-          <strong>atendimento online</strong> segundo a Resolução CFP Nº: 11/2018.
+          <p>
+            Meu nome é <strong>Marciran Eleuterio Brisida</strong>, Sou
+            <strong>Psicólogo Clínico</strong>.
+            <br />
+            Atendo crianças, adolescentes, adultos e idosos.
+          </p>
+
+          <p>
+            Formado em <strong>Psicologia</strong> pela Universidade José do Rosário Vellano -
+            UNIFENAS.
+          </p>
+
+          <p>
+            Especialista em <strong>Terapia Cognitivo-Comportamental</strong> pela Pontifícia
+            Universidade Católica do Paraná - PUCPR.
+          </p>
+
+          <p>
+            Psicólogo credenciado junto ao Conselho Federal de Psicologia - CFP para
+            <strong>atendimento online</strong> segundo a Resolução CFP Nº: 11/2018.
+          </p>
         </h4>
       </div>
     </div>
@@ -69,7 +79,11 @@
       <h1 class="pb-3 services-title">Serviços</h1>
       <div class="card-group">
         <div class="card bg-dark align-items-center">
-          <img src="../../public/images/psychotherapy.jpg" class="card-img-top w-50" alt="..." />
+          <img
+            src="../../public/images/psychotherapy.jpg"
+            class="card-img-top rounded w-50"
+            alt="..."
+          />
           <div class="card-body">
             <h5 class="card-title">Atendimento Psicológico</h5>
             <p class="card-text">
@@ -81,7 +95,7 @@
         <div class="card bg-dark align-items-center">
           <img
             src="../../public/images/parents-orientation.jpeg"
-            class="card-img-top w-50"
+            class="card-img-top rounded w-50"
             alt="..."
           />
           <div class="card-body">
@@ -93,7 +107,11 @@
           </div>
         </div>
         <div class="card bg-dark align-items-center">
-          <img src="../../public/images/couple-therapy.jpg" class="card-img-top w-50" alt="..." />
+          <img
+            src="../../public/images/couple-therapy.jpg"
+            class="card-img-top rounded w-50"
+            alt="..."
+          />
           <div class="card-body">
             <h5 class="card-title">Terapia de Casal</h5>
             <p class="card-text">
@@ -112,20 +130,27 @@
     >
       <h1 class="text-center pt-4 fw-bold contact-title">Contato</h1>
     </div>
-    <div class="container pt-3 contact-info">
+    <div class="container pt-3 contact-info text-center">
       <h2 class="contact-info-title">Informações de Contato</h2>
-      <p>Marciran Eleutério Brisida</p>
       <p>
-        (35) 98843-4758
-        <a href="https://wa.me/+5535988434758" target="_blank" class="a-wpp"
-          ><i class="bi bi-whatsapp ps-2"></i
-        ></a>
+        <a href="https://wa.me/+5535988434758" target="_blank" class="a-wpp">
+          <i class="bi bi-whatsapp ps-2"></i>
+          (35) 98843-4758
+        </a>
       </p>
       <p>
-        Edifício Manhattan - Rua Francisco Garcia de Miranda Junior, Nº 130, Sala 203, Centro, Três
-        Pontas - MG
+        <a href="https://goo.gl/maps/jG4pjcxcGKxovvYQ7" target="_blank" class="a-contact">
+          <i class="bi bi-geo-alt-fill ps-2"></i>
+          Edifício Manhattan - Rua Francisco Garcia de Miranda Junior, Nº 130, Sala 203, Centro,
+          Três Pontas - MG
+        </a>
       </p>
-      <p>marciranbrisidapsi@gmail.com</p>
+      <p>
+        <a href="mailto:marciranbrisidapsi@gmail.com" target="_blank" class="a-contact">
+          <i class="bi bi-envelope-fill ps-2"></i>
+          marciranbrisidapsi@gmail.com
+        </a>
+      </p>
     </div>
     <div class="container py-0 mt-4 contact-overlay">
       <div class="row">
@@ -221,9 +246,10 @@
           <div class="pt-2">
             <a href="https://wa.me/+5535988434758" target="_blank" rel="noopener noreferrer">
               <button type="button" class="btn btn-success wpp-button-contact-page">
-                <i class="bi bi-whatsapp"></i> (35) 98843-4758
-              </button></a
-            >
+                <i class="bi bi-whatsapp"></i>
+                (35) 98843-4758
+              </button>
+            </a>
           </div>
           <div class="pt-2 maps-card">
             <iframe
@@ -306,6 +332,12 @@
 .a-wpp:hover {
   color: rgb(69, 211, 3);
 }
+
+.a-contact {
+  text-decoration: none;
+  color: black;
+}
+
 .maps-card {
   margin-left: 5%;
   margin-right: 5%;
