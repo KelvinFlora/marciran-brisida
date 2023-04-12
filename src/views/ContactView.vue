@@ -1,18 +1,30 @@
 <template>
-  <div class="container pt-4 contact-info-p4">
+  <div class="container text-center pt-4 contact-info-p4">
     <h2>Informações de Contato</h2>
-    <p class="pt-3">Marciran Eleutério Brisida</p>
-    <p>
-      (35) 98843-4758
-      <a href="https://wa.me/+5535988434758" target="_blank" class="a-wpp"
-        ><i class="bi bi-whatsapp ps-2"></i
-      ></a>
+    <p class="pt-3">
+      <a href="https://wa.me/+5535988434758" target="_blank" class="a-contact">
+        <i class="bi bi-person-vcard ps-2"></i>
+        Marciran Eleutério Brisida
+      </a>
     </p>
     <p>
-      Edifício Manhattan - Rua Francisco Garcia de Miranda Junior, Nº 130, Sala 203, Centro, Três
-      Pontas - MG
+      <a href="https://wa.me/+5535988434758" target="_blank" class="a-wpp">
+        <i class="bi bi-whatsapp ps-2"></i> (35) 98843-4758
+      </a>
     </p>
-    <p>marciranbrisidapsi@gmail.com</p>
+    <p>
+      <a href="https://goo.gl/maps/jG4pjcxcGKxovvYQ7" target="_blank" class="a-contact">
+        <i class="bi bi-geo-alt ps-2"></i>
+        Edifício Manhattan - Rua Francisco Garcia de Miranda Junior, Nº 130, Sala 203, Centro, Três
+        Pontas - MG
+      </a>
+    </p>
+    <p>
+      <a href="mailto:marciranbrisidapsi@gmail.com" target="_blank" class="a-contact">
+        <i class="bi bi-envelope ps-2"></i>
+        marciranbrisidapsi@gmail.com
+      </a>
+    </p>
   </div>
   <div class="container py-0 mt-4 contact-overlay">
     <div class="row">
