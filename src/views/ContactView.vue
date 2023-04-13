@@ -2,7 +2,7 @@
   <div class="container text-center pt-4 contact-info-p4">
     <h2>Informações de Contato</h2>
     <p class="pt-3">
-      <a href="https://wa.me/+5535988434758" target="_blank" class="a-contact">
+      <a href="https://www.instagram.com/psi.marciranbrisida/" target="_blank" class="a-contact">
         <i class="bi bi-person-vcard ps-2"></i>
         Marciran Eleutério Brisida
       </a>
