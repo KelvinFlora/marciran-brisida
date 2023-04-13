@@ -272,7 +272,7 @@
   padding-top: 200px;
   margin-bottom: 10px;
   animation: fadeInDown;
-  animation-duration: 2s;
+  animation-duration: 3s;
 }
 .psycho-text {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -280,6 +280,10 @@
   margin-bottom: 250px;
   animation: fadeIn;
   animation-duration: 5s;
+}
+.psycho-image {
+  animation: fadeInRight;
+  animation-duration: 3s;
 }
 .about-title {
   margin-top: 50px;
@@ -291,8 +295,6 @@
   align-items: center;
   width: 30%;
   margin-top: 100px;
-  animation: backInLeft;
-  animation-duration: 1s;
 }
 .about-text {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -328,6 +330,8 @@
 .home-quote {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 150%;
+  animation: fadeIn;
+  animation-duration: 3s;
 }
 .h3 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
