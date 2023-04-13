@@ -37,18 +37,18 @@
     </div>
     <div class="container text-center">
       <img
-        class="pt-4 about-photo"
+        class="pt-4 about-photo wow"
         alt="Foto de perfil do Psicólogo Marciran"
         src="../../public/images/marciran-photo-prof.png"
       />
     </div>
     <!-- About Me -->
     <div class="container text-center pt-3">
-      <h2 class="about-title">Sobre mim</h2>
+      <h2 class="about-title wow">Sobre mim</h2>
     </div>
     <div class="container-fluid text-center pt-4 pb-4">
       <div class="row justify-content-center">
-        <h4 class="col-8 align-self-center about-text">
+        <h4 class="col-8 align-self-center about-text wow">
           <p>
             Meu nome é <strong>Marciran Eleuterio Brisida</strong>, Sou
             <strong>Psicólogo Clínico</strong>.
@@ -75,7 +75,7 @@
     </div>
 
     <!-- Serviços -->
-    <div class="container-fluid pt-4 pb-4 text-center bg-dark text-white">
+    <div class="container-fluid pt-4 pb-4 text-center bg-dark text-white wow">
       <h1 class="pb-3 services-title">Serviços</h1>
       <div class="card-group">
         <div class="card bg-dark align-items-center">
@@ -125,12 +125,12 @@
     </div>
     <!-- Contact -->
     <div
-      class="container"
+      class="container wow"
       style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"
     >
       <h1 class="text-center pt-4 fw-bold contact-title">Contato</h1>
     </div>
-    <div class="container pt-3 contact-info text-center">
+    <div class="container pt-3 contact-info text-center wow">
       <h2 class="contact-info-title">Informações de Contato</h2>
       <p>
         <a href="https://wa.me/+5535988434758" target="_blank" class="a-wpp">
@@ -152,7 +152,7 @@
         </a>
       </p>
     </div>
-    <div class="container py-0 mt-4 contact-overlay">
+    <div class="container py-0 mt-4 contact-overlay wow">
       <div class="row">
         <div class="col-12 col-lg-6 mb-4">
           <form @submit="submitForm($event)">
@@ -239,7 +239,7 @@
             </div>
           </form>
         </div>
-        <div class="col-12 col-lg-6 mb-4 badge text-wrap justify-content-center">
+        <div class="col-12 col-lg-6 mb-4 badge text-wrap justify-content-center wow">
           <div class="text-center fs-3 pt-3 text-dark wpp-contact">
             Entre em contato através do WhatsApp:
           </div>
@@ -251,7 +251,7 @@
               </button>
             </a>
           </div>
-          <div class="pt-2 maps-card">
+          <div class="pt-2 maps-card wow">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14862.038041234116!2d-45.51967893022461!3d-21.36983379999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ca83ea1f90ceb5%3A0x25acdb02d6964a9f!2sR.%20Francisco%20Garc%C3%ADa%20Miranda%2C%20130%20-%20Botafogo%2C%20Tr%C3%AAs%20Pontas%20-%20MG%2C%2037190-000!5e0!3m2!1spt-BR!2sbr!4v1680636619303!5m2!1spt-BR!2sbr"
               width="100%"
@@ -288,8 +288,6 @@
 .about-title {
   margin-top: 50px;
   margin-bottom: 50px;
-  animation: fadeInDown;
-  animation-duration: 2s;
 }
 .about-photo {
   align-items: center;
