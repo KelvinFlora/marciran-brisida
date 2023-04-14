@@ -2,7 +2,7 @@
   <div class="container-fluid pt-4 pb-4 text-center">
     <h1 class="pb-3 services-title-p3">Serviços</h1>
     <div class="card-group">
-      <div class="card align-items-center">
+      <div class="card align-items-center card-1">
         <img src="../../public/images/psychotherapy.jpg" class="card-img-top w-50" alt="..." />
         <div class="card-body">
           <h5 class="card-title">Atendimento Psicológico</h5>
@@ -12,7 +12,7 @@
           </p>
         </div>
       </div>
-      <div class="card align-items-center">
+      <div class="card align-items-center card-2">
         <img
           src="../../public/images/parents-orientation.jpeg"
           class="card-img-top w-50"
@@ -26,7 +26,7 @@
           </p>
         </div>
       </div>
-      <div class="card align-items-center">
+      <div class="card align-items-center card-3">
         <img src="../../public/images/couple-therapy.jpg" class="card-img-top w-50" alt="..." />
         <div class="card-body">
           <h5 class="card-title">Terapia de Casal</h5>
@@ -44,6 +44,8 @@
 .services-title-p3 {
   margin-top: 30px;
   margin-bottom: 30px;
+  animation: fadeInDown;
+  animation-duration: 3s;
 }
 .card-title {
   margin-top: 30px;
@@ -52,3 +54,4 @@
   margin-top: 20px;
 }
 </style>
+<script></script>

@@ -3,8 +3,8 @@
     <!-- Initial text -->
     <div class="container pt-4 pb-4">
       <div class="row align-self-xl-center">
-        <h1 class="psycho-title">A Psicoterapia</h1>
-        <h2 class="col-xl-6 pt-2 psycho-text">
+        <h1 class="psycho-title wow">A Psicoterapia</h1>
+        <h2 class="col-xl-6 pt-2 psycho-text wow">
           Muitas pessoas ainda têm dúvidas sobre a psicoterapia e acham que é algo reservado apenas
           para quem tem "problemas graves".
           <br />
@@ -22,7 +22,7 @@
         </h2>
         <div class="col-xl-6 text-center">
           <img
-            class="rounded w-75 psycho-image"
+            class="rounded w-75 psycho-image wow"
             src="../../public/images/yoga-g336800fd7_1280.jpg"
             alt="Pessoa meditando"
           />
@@ -31,10 +31,11 @@
     </div>
     <!-- Quote -->
     <div class="container-fluid text-center pt-5 pb-5 bg-dark quote-bg">
-      <h1 class="home-quote text-light">
+      <h1 class="home-quote text-light wow">
         "A mente é como um jardim. Se não for cultivada, pode se tornar uma selva." - Desmond Tutu
       </h1>
     </div>
+    <!-- About Me -->
     <div class="container text-center">
       <img
         class="pt-4 about-photo wow"
@@ -42,7 +43,6 @@
         src="../../public/images/marciran-photo-prof.png"
       />
     </div>
-    <!-- About Me -->
     <div class="container text-center pt-3">
       <h2 class="about-title wow">Sobre mim</h2>
     </div>
@@ -75,10 +75,10 @@
     </div>
 
     <!-- Serviços -->
-    <div class="container-fluid pt-4 pb-4 text-center bg-dark text-white wow">
-      <h1 class="pb-3 services-title">Serviços</h1>
-      <div class="card-group">
-        <div class="card bg-dark align-items-center">
+    <div class="container-fluid pt-4 pb-4 text-center bg-dark text-white services">
+      <h1 class="pb-3 services-title wow">Serviços</h1>
+      <div class="card-group wow">
+        <div class="card bg-dark align-items-center wow card-1">
           <img
             src="../../public/images/psychotherapy.jpg"
             class="card-img-top rounded w-50"
@@ -92,7 +92,7 @@
             </p>
           </div>
         </div>
-        <div class="card bg-dark align-items-center">
+        <div class="card bg-dark align-items-center wow card-2">
           <img
             src="../../public/images/parents-orientation.jpeg"
             class="card-img-top rounded w-50"
@@ -106,7 +106,7 @@
             </p>
           </div>
         </div>
-        <div class="card bg-dark align-items-center">
+        <div class="card bg-dark align-items-center wow card-3">
           <img
             src="../../public/images/couple-therapy.jpg"
             class="card-img-top rounded w-50"
@@ -288,24 +288,44 @@
 .about-title {
   margin-top: 50px;
   margin-bottom: 50px;
+  animation: fadeInDown;
+  animation-duration: 3s;
 }
 .about-photo {
   align-items: center;
   width: 30%;
   margin-top: 100px;
+  animation: fadeInLeft;
+  animation-duration: 2s;
 }
 .about-text {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: larger;
   margin-bottom: 200px;
+  animation: fadeInRight;
+  animation-duration: 2s;
 }
 .services-title {
   margin-top: 50px;
   margin-bottom: 50px;
+  animation: fadeIn;
+  animation-duration: 3s;
 }
 .card {
   border: 0;
   border-width: 0 !important;
+}
+.card-1 {
+  animation: fadeInLeft;
+  animation-duration: 2s;
+}
+.card-2 {
+  animation: fadeInUp;
+  animation-duration: 2s;
+}
+.card-3 {
+  animation: fadeInRight;
+  animation-duration: 2s;
 }
 .card-group {
   margin-bottom: 150px;
@@ -314,16 +334,28 @@
 .contact-title {
   margin-top: 50px;
   margin-bottom: 50px;
+  animation: fadeIn;
+  animation-duration: 3s;
 }
 .contact-info {
   margin-bottom: 50px;
+  animation: fadeIn;
+  animation-duration: 3s;
 }
 .contact-info-title {
   margin-bottom: 30px;
+  animation: fadeIn;
+  animation-duration: 3s;
 }
 .wpp-button-contact-page {
   margin-top: 30px;
   margin-bottom: 30px;
+  animation: fadeIn;
+  animation-duration: 3s;
+}
+.contact-overlay {
+  animation: fadeIn;
+  animation-duration: 3s;
 }
 .home-quote {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -365,19 +397,27 @@
   .psycho-image {
     margin-top: 10px;
     margin-bottom: 10px;
+    animation: fadeIn;
+    animation-duration: 3s;
   }
   .about-photo {
     width: 40%;
     margin-top: 75px;
+    animation: fadeIn;
+    animation-duration: 3s;
   }
   .about-title {
     margin-top: 0px;
     margin-bottom: 0px;
+    animation: fadeIn;
+    animation-duration: 3s;
   }
   .about-text {
     margin-top: 10px;
     width: 100%;
     margin-bottom: 75px;
+    animation: fadeIn;
+    animation-duration: 3s;
   }
   .services-title {
     margin-top: 20px;
@@ -392,6 +432,8 @@
     border-radius: 0rem !important;
     margin-top: 50px;
     margin-bottom: 50px;
+    animation: fadeIn;
+    animation-duration: 3s;
   }
   .card-group {
     margin-bottom: 20px;
@@ -531,4 +573,7 @@ export default {
     }
   }
 };
+
+// css animation //
+new WOW().init();
 </script>

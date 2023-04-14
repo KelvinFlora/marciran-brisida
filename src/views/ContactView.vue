@@ -138,6 +138,10 @@
   </div>
 </template>
 <style>
+.contact-info-p4 {
+  animation: fadeIn;
+  animation-duration: 3s;
+}
 .maps-card-p4 {
   margin-left: 5%;
   margin-right: 5%;

@@ -1,7 +1,7 @@
 <template>
   <div class="container text-center pt-4">
     <img
-      class="pt-4 about-photo-p2"
+      class="pt-4 wow about-photo-p2"
       alt="Foto de perfil do Marciran"
       src="../../public/images/marciran-prof2.png"
     />
@@ -40,10 +40,18 @@
 <style about-page>
 .about-photo-p2 {
   width: 30%;
+  animation: fadeInLeft;
+  animation-duration: 3s;
+}
+.about-title-p2 {
+  animation: fadeIn;
+  animation-duration: 5s;
 }
 .about-text-p2 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: large;
+  animation: fadeInRight;
+  animation-duration: 3s;
 }
 @media screen and (max-width: 500px) {
   .about-photo-p2 {
