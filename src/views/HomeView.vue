@@ -227,7 +227,7 @@
                 <div class="sub-button">
                   <button
                     type="submit"
-                    class="btn btn-dark submit-button mt-2 btn-lg w-50"
+                    class="btn btn-primary submit-button mt-2 btn-lg w-50"
                     :disabled="sendingForm"
                   >
                     <span
