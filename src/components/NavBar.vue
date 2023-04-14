@@ -33,7 +33,7 @@
             <router-link class="nav-link" to="/sobre">Sobre</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/serviços">Serviços</router-link>
+            <router-link class="nav-link" to="/servicos">Serviços</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/contato">Contato</router-link>
