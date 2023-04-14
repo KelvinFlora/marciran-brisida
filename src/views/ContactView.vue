@@ -8,7 +8,7 @@
       </a>
     </p>
     <p>
-      <a href="https://wa.me/+5535988434758" target="_blank" class="a-wpp">
+      <a href="https://wa.me/+5535988434758" target="_blank" class="a-contact">
         <i class="bi bi-whatsapp ps-2"></i> (35) 98843-4758
       </a>
     </p>
