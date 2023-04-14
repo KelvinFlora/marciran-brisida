@@ -101,7 +101,7 @@
           <div class="card-body">
             <h5 class="card-title">Orientação de Pais</h5>
             <p class="card-text">
-              Orientações aos pais relacionadas a comportamentos e como lidar com situação adversas
+              Orientações aos pais relacionadas a comportamentos e como lidar com situações adversas
               nos diversos ambientes onde seus filhos estão inseridos.
             </p>
           </div>
@@ -116,8 +116,8 @@
             <h5 class="card-title">Terapia de Casal</h5>
             <p class="card-text">
               A terapia de casal possibilitará a identificação e discussão de questões que estão
-              afetando o relacionamento, como problemas de comunicação, conflitos, falta de
-              intimidade, infidelidade ou outras dificuldades.
+              afetando o relacionamento. Como por exemplo, problemas de comunicação, conflitos,
+              falta de intimidade, infidelidade ou outras dificuldades.
             </p>
           </div>
         </div>
@@ -132,8 +132,14 @@
     </div>
     <div class="container pt-3 contact-info text-center wow">
       <h2 class="contact-info-title">Informações de Contato</h2>
+      <p class="pt-3">
+        <a href="https://www.instagram.com/psi.marciranbrisida/" target="_blank" class="a-contact">
+          <i class="bi bi-person-vcard ps-2"></i>
+          Marciran Eleutério Brisida
+        </a>
+      </p>
       <p>
-        <a href="https://wa.me/+5535988434758" target="_blank" class="a-wpp">
+        <a href="https://wa.me/+5535988434758" target="_blank" class="a-contact">
           <i class="bi bi-whatsapp ps-2"></i>
           (35) 98843-4758
         </a>
@@ -221,7 +227,7 @@
                 <div class="sub-button">
                   <button
                     type="submit"
-                    class="btn btn-primary submit-button mt-2 btn-lg w-50"
+                    class="btn btn-dark submit-button mt-2 btn-lg w-50"
                     :disabled="sendingForm"
                   >
                     <span
@@ -366,15 +372,6 @@
 .h3 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
-.a-wpp {
-  text-decoration: none;
-  color: black;
-}
-.a-wpp:hover {
-  color: rgb(69, 211, 3);
-}
-
 .a-contact {
   text-decoration: none;
   color: black;
