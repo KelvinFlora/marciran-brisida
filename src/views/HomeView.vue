@@ -278,37 +278,37 @@
   padding-top: 200px;
   margin-bottom: 10px;
   animation: fadeInDown;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 .psycho-text {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: larger;
   margin-bottom: 250px;
   animation: fadeIn;
-  animation-duration: 5s;
+  animation-duration: 4s;
 }
 .psycho-image {
   animation: fadeInRight;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 .about-title {
   margin-top: 50px;
   margin-bottom: 50px;
   animation: fadeInDown;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 .about-photo {
   align-items: center;
   width: 30%;
   margin-top: 100px;
-  animation: fadeInLeft;
+  animation: fadeInDown;
   animation-duration: 2s;
 }
 .about-text {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: larger;
   margin-bottom: 200px;
-  animation: fadeInRight;
+  animation: fadeInUp;
   animation-duration: 2s;
 }
 .services-title {
