@@ -21,8 +21,9 @@
           href="https://www.instagram.com/psi.marciranbrisida"
           target="_blank"
           role="button"
-          ><i class="bi bi-instagram instagram-button"></i
-        ></a>
+        >
+          <i class="bi bi-instagram instagram-button"></i>
+        </a>
 
         <!-- WhatsApp -->
         <a
@@ -36,7 +37,7 @@
         <!-- Email (precisa colocar link) -->
         <a
           class="btn text-light btn-floating m-1"
-          href="marciranbrisidapsi@gmail.com"
+          href="mailto:marciranbrisidapsi@gmail.com"
           target="_blank"
           role="button"
           ><i class="bi bi-envelope-fill email-button"></i
@@ -47,7 +48,7 @@
     <!-- Grid container -->
 
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    <div class="text-center p-3 credits" style="background-color: rgba(0, 0, 0, 0.2)">
       © 2023 Marciran Brisida - Todos os direitos reservados | Desenvolvido por Kelvin Flora
     </div>
     <!-- Copyright -->
@@ -60,18 +61,18 @@ export default {
 </script>
 <style>
 .facebook-button:hover {
-  color: rgb(253, 210, 16);
+  color: rgb(252, 212, 112);
 }
 
 .instagram-button:hover {
-  color: rgb(253, 210, 16);
+  color: rgb(252, 212, 112);
 }
 
 .whatsapp-button:hover {
-  color: rgb(253, 210, 16);
+  color: rgb(252, 212, 112);
 }
 
 .email-button:hover {
-  color: rgb(253, 210, 16);
+  color: rgb(252, 212, 112);
 }
 </style>
