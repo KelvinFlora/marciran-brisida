@@ -555,8 +555,17 @@ export default {
         message: this.msg
       };
 
-      setTimeout(() => {
-        console.log("Form submitted", formData);
+      (async () => {
+        const rawResponse = await fetch("/form", {
+          method: "POST",
+          headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify(formData)
+        });
+        const content = await rawResponse.json();
+        console.log("Form submitted", content);
 
         this.formSent = true;
 
@@ -566,7 +575,7 @@ export default {
         this.msg = "";
 
         this.sendingForm = false;
-      }, 2000);
+      })();
     }
   }
 };
