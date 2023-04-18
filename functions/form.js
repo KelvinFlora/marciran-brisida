@@ -1,4 +1,4 @@
-export async function onRequest({ request }) {
+export async function onRequestPost({ request }) {
   const contentType = request.headers.get("content-type");
 
   if (contentType.includes("application/json")) {
