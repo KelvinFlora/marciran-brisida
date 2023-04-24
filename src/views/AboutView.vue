@@ -1,7 +1,7 @@
 <template>
   <div class="container text-center pt-4">
     <img
-      class="pt-4 wow about-photo-p2"
+      class="pt-4 wow about-photo-p2 animate__animated animate__fadeIn"
       alt="Foto de perfil do Marciran"
       src="../../public/images/marciran-prof2.png"
     />
@@ -40,8 +40,7 @@
 <style about-page>
 .about-photo-p2 {
   width: 30%;
-  animation: fadeInLeft;
-  animation-duration: 3s;
+  animation-duration: 5s;
 }
 .about-title-p2 {
   animation: fadeIn;
