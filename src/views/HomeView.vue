@@ -555,17 +555,26 @@ export default {
         message: this.msg
       };
 
-      (async () => {
-        const rawResponse = await fetch("/form", {
-          method: "POST",
-          headers: {
-            Accept: "application/json",
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify(formData)
-        });
-        const content = await rawResponse.json();
-        console.log("Form submitted", content);
+      const whatsText =
+        `*Olá! Gostaria de entrar em contato com você.*\n` +
+        `\n` +
+        `🪪 *Nome:* ${formData.name}\n` +
+        `✉️ *Email:* ${formData.email}\n` +
+        `\n` +
+        `💬 *Telefone:* ${formData.phone}\n` +
+        `\n` +
+        `📄 *Mensagem:*\n` +
+        `${formData.message}`;
+
+      window.open(
+        `https://api.whatsapp.com/send/?phone=5511933890270&text=${encodeURI(
+          whatsText
+        )}&type=phone_number&app_absent=0`,
+        "_blank"
+      );
+
+      setTimeout(() => {
+        console.log("Form submitted", formData);
 
         this.formSent = true;
 
@@ -575,7 +584,7 @@ export default {
         this.msg = "";
 
         this.sendingForm = false;
-      })();
+      }, 0);
     }
   }
 };

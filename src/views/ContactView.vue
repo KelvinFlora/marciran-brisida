@@ -251,6 +251,24 @@ export default {
         message: this.msg
       };
 
+      const whatsText =
+        `*Olá! Gostaria de entrar em contato com você.*\n` +
+        `\n` +
+        `🪪 *Nome:* ${formData.name}\n` +
+        `✉️ *Email:* ${formData.email}\n` +
+        `\n` +
+        `💬 *Telefone:* ${formData.phone}\n` +
+        `\n` +
+        `📄 *Mensagem:*\n` +
+        `${formData.message}`;
+
+      window.open(
+        `https://api.whatsapp.com/send/?phone=5511933890270&text=${encodeURI(
+          whatsText
+        )}&type=phone_number&app_absent=0`,
+        "_blank"
+      );
+
       setTimeout(() => {
         console.log("Form submitted", formData);
 
@@ -262,7 +280,7 @@ export default {
         this.msg = "";
 
         this.sendingForm = false;
-      }, 2000);
+      }, 0);
     }
   }
 };
