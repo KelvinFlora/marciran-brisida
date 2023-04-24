@@ -567,7 +567,7 @@ export default {
         `${formData.message}`;
 
       window.open(
-        `https://api.whatsapp.com/send/?phone=5511933890270&text=${encodeURI(
+        `https://api.whatsapp.com/send/?phone=5535988434758&text=${encodeURI(
           whatsText
         )}&type=phone_number&app_absent=0`,
         "_blank"
