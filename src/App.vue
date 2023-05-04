@@ -3,9 +3,7 @@
     <NavBar />
   </nav>
   <RouterView />
-  <div>
     <FooterSite />
-  </div>
 </template>
 
 <script>
