@@ -10,6 +10,7 @@
           class="btn text-light btn-floating m-1"
           href="https://www.facebook.com/marciran.brisida"
           target="_blank"
+          alt="Ícone do Facebook"
           role="button"
         >
           <i class="bi bi-facebook facebook-button"></i
@@ -20,6 +21,7 @@
           class="btn text-light btn-floating m-1"
           href="https://www.instagram.com/psi.marciranbrisida"
           target="_blank"
+          alt="Ícone do Instagram"
           role="button"
         >
           <i class="bi bi-instagram instagram-button"></i>
@@ -30,6 +32,7 @@
           class="btn text-light btn-floating m-1"
           href="https://wa.me/+5535988434758"
           target="_blank"
+          alt="Ícone do Whatsapp"
           role="button"
           ><i class="bi bi-whatsapp whatsapp-button"></i
         ></a>
@@ -39,6 +42,7 @@
           class="btn text-light btn-floating m-1"
           href="mailto:marciranbrisidapsi@gmail.com"
           target="_blank"
+          alt="Ícone do email"
           role="button"
           ><i class="bi bi-envelope-fill email-button"></i
         ></a>
