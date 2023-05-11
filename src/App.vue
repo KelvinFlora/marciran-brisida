@@ -3,7 +3,7 @@
     <NavBar />
   </nav>
   <RouterView />
-    <FooterSite />
+  <FooterSite />
 </template>
 
 <script>
@@ -19,5 +19,20 @@ export default {
     RouterView
   }
 };
+</script>
+
+<script lang="ts" setup>
+import { definePerson, defineWebPage, defineWebSite, useSchemaOrg } from "@vueuse/schema-org";
+useSchemaOrg([
+  definePerson({
+    name: "Marciran Brisida",
+    image: "/marciran-prof2.png",
+    sameAs: ["https://www.instagram.com/psi.marciranbrisida"], ["https://www.facebook.com/marciran.brisida"]
+  }),
+  defineWebSite({
+    url: "https://marciranbrisida.com"
+  }),
+  defineWebPage()
+]);
 </script>
 <style lang="scss"></style>
