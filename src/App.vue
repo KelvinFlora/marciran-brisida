@@ -2,13 +2,11 @@
   <nav>
     <NavBar />
   </nav>
-  <SchemaOrgDebug />
   <RouterView />
   <FooterSite />
 </template>
 
-<script lang="ts">
-import { SchemaOrgDebug } from "@vueuse/schema-org";
+<script>
 import { RouterView } from "vue-router";
 import FooterSite from "./components/FooterSite.vue";
 import NavBar from "./components/NavBar.vue";
@@ -18,13 +16,12 @@ export default {
   components: {
     NavBar,
     FooterSite,
-    RouterView,
-    SchemaOrgDebug
+    RouterView
   }
 };
 </script>
 
-<script lang="ts" setup>
+<script setup>
 import { definePerson, defineWebPage, defineWebSite, useSchemaOrg } from "@vueuse/schema-org";
 useSchemaOrg([
   definePerson({
